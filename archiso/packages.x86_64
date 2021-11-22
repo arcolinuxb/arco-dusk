@@ -11,7 +11,7 @@ arch-install-scripts
 base
 bind-tools
 #brltty
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
@@ -86,7 +86,7 @@ partimage
 pcsclite
 ppp
 pptpclient
-#pv
+pv
 qemu-guest-agent
 reflector
 reiserfsprogs
@@ -122,12 +122,15 @@ xfsprogs
 xl2tpd
 
 ###archiso-extra
+aic94xx-firmware
 dialog
 dnsutils
 grub
 linux-headers
 logrotate
 ntp
+upd72020x-fw
+wd719x-firmware
 wget
 
 ###xorg
@@ -341,10 +344,10 @@ bash-completion
 dex
 #discord
 #dmidecode
-#duf-bin
-#edid-decode-git
+duf-bin
+edid-decode-git
 #evince
-#expac
+expac
 file-roller
 #filezilla
 git
@@ -462,7 +465,7 @@ mkinitcpio-openswap
 ###utilities-repo
 #alacritty
 appstream
-#archiso
+archiso
 #conky-lua-archers
 downgrade
 #font-manager-git
@@ -470,7 +473,7 @@ downgrade
 #gitahead-bin
 grub-customizer
 #hardcode-fixer-git
-#inxi
+inxi
 mintstick-git
 neofetch
 #numix-gtk-theme-git
@@ -510,7 +513,7 @@ yay-bin
 
 #arcolinux-alacritty-git
 #arcolinux-arc-kde
-#arcolinux-arc-themes-git
+#arcolinux-arc-themes-2021-git
 arcolinux-bin-git
 arcolinux-candy-beauty-git
 #arcolinux-common-git
