@@ -463,11 +463,11 @@ bibata-cursor-theme-bin
 mkinitcpio-openswap
 
 ###utilities-repo
-#alacritty
+alacrittyt
 appstream
 archiso
 #conky-lua-archers
-downgrade
+downgrades
 #font-manager-git
 #glxinfo
 #gitahead-bin
@@ -511,7 +511,7 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-#arcolinux-alacritty-git
+arcolinux-alacritty-git
 #arcolinux-arc-kde
 #arcolinux-arc-themes-2021-git
 arcolinux-bin-git
