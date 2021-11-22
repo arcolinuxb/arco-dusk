@@ -748,7 +748,7 @@ adobe-source-han-sans-cn-fonts
 #arcob-calamares-config-cwm-git
 #arcob-calamares-config-cutefish-git
 #arcob-calamares-config-deepin-git
-arcob-calamares-config-dwm-git
+#arcob-calamares-config-dwm-git
 #arcob-calamares-config-enlightenment-git
 #arcob-calamares-config-fvwm3-git
 #arcob-calamares-config-gnome-git
@@ -926,3 +926,4 @@ arcolinux-dusk-git
 arcolinux-wallpapers-candy-git
 arcolinux-paleofetch-git
 lolcat
+arcob-calamares-config-dusk-git
