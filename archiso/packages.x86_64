@@ -39,6 +39,7 @@ gpart
 gpm
 gptfdisk
 #grml-zsh-config
+grub
 hdparm
 intel-ucode
 ipw2100-fw
@@ -88,6 +89,7 @@ ppp
 pptpclient
 pv
 qemu-guest-agent
+refind
 reflector
 reiserfsprogs
 rp-pppoe
@@ -125,7 +127,6 @@ xl2tpd
 aic94xx-firmware
 dialog
 dnsutils
-grub
 linux-headers
 logrotate
 ntp
@@ -166,7 +167,7 @@ mesa
 #bumblebee
 #optimus-manager
 #optimus-manager-qt
-nvidia
+nvidia-dkms
 nvidia-utils
 nvidia-settings
 #libva-intel-driver
@@ -374,7 +375,7 @@ intltool
 iw
 jsoncpp
 libmtp
-#laptop-detect
+laptop-detect
 lsb-release
 mlocate
 nomacs
@@ -401,7 +402,7 @@ rxvt-unicode
 #speedtest-cli-git
 #telegram-desktop
 #timeshift
-#tlp
+tlp
 #tree
 #ufw
 #gufw
@@ -451,8 +452,8 @@ bibata-cursor-theme-bin
 #numix-icon-theme-git
 #numix-circle-icon-theme-git
 #paper-icon-theme
-#sardi-icons
-#surfn-icons-git
+sardi-icons
+surfn-icons-git
 #surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
