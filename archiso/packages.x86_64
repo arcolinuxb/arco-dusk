@@ -44,8 +44,8 @@ grub
 hdparm
 hyperv
 intel-ucode
-ipw2100-fw
-ipw2200-fw
+#ipw2100-fw
+#ipw2200-fw
 irssi
 #iw
 #iwd
@@ -136,7 +136,6 @@ dnsutils
 linux-headers
 logrotate
 ntp
-#r8168-dkms
 upd72020x-fw
 wd719x-firmware
 wget
@@ -145,53 +144,34 @@ wget
 xorg-server
 xorg-apps
 xorg-xinit
-#xterm
 
 ###video
-#xorg-drivers
-#xorg-drivers includes
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-#xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-video-amdgpu
 xf86-video-ati
-#xf86-video-dummy
 xf86-video-fbdev
 #xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
-#xf86-video-qxl
 xf86-video-vesa
 xf86-video-vmware
-#xf86-video-voodoo
-#xf86-video-sisusb
 mesa
 
 ###hardware video support
-#bumblebee
-#optimus-manager
-#optimus-manager-qt
 nvidia-dkms
 nvidia-utils
 nvidia-settings
-#libva-intel-driver
-#libva-vdpau-driver
 mesa-utils
-#mesa-vdpau
-#opencl-mesa
-#primus
-#vulkan-intel
-#vulkan-radeon
 
 ###base and base-devel
 base
 base-devel
 
 ###virtual box or vmware
-#virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
 ###packages for dual boot
@@ -235,7 +215,6 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
-#samba
 
 ###file management
 gvfs
@@ -253,14 +232,9 @@ xdg-user-dirs
 cups
 cups-filters
 cups-pdf
-cups-pk-helper
 ghostscript
 gsfonts
-gtk3-print-backends
 gutenprint
-libcups
-#hplip
-splix
 system-config-printer
 
 ###tumbler
@@ -277,7 +251,6 @@ poppler-qt5
 #########################################################################
 
 ###applications
-#atom
 #chromium
 #darktable
 #deadbeef
@@ -290,9 +263,9 @@ firefox
 #geany
 #gimp
 #gmrun
-#gsimplecal
+gsimplecal
 #guvcview
-#imagemagick
+imagemagick
 #inkscape
 #libreoffice-fresh
 #lshw
@@ -304,11 +277,11 @@ numlockx
 scrot
 #simplescreenrecorder
 #termite
-#variety
+variety
 #vlc
 
 ###conky
-#jq
+jq
 #lm_sensors
 
 ###cursors
@@ -336,19 +309,19 @@ ttf-ubuntu-font-family
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
-#arc-darkest-theme-git
+arc-darkest-theme-git
 kvantum
 #openbox-arc-git
 
 ###utilities
 arandr
-#asciinema
+asciinema
 bash-completion
 #baobab
 bat
 #catfish
 #cronie
-#dconf-editor
+dconf-editor
 dex
 #discord
 duf-bin
@@ -360,7 +333,7 @@ file-roller
 git
 gksu
 #glances
-#gnome-disk-utility
+gnome-disk-utility
 gnome-keyring
 #gnome-screenshot
 #gnome-software
@@ -368,12 +341,12 @@ gnome-keyring
 gparted
 #gpick
 #gtop
-#hardinfo-gtk3
+hardinfo-gtk3
 #hddtemp
-#htop
+htop
 #hunspell
 #hunspell-en_US
-#hw-probe
+hw-probe
 #hyphen
 #hyphen-en
 #grsync
@@ -384,7 +357,7 @@ libmtp
 laptop-detect
 lsb-release
 mlocate
-nomacs
+#nomacs
 oh-my-zsh-git
 p7zip
 pkgfile
@@ -398,15 +371,14 @@ polkit-gnome
 qt5ct
 #qt5-styleplugins
 #qt5-tools
-#qt5-webkit
+qt5-webkit
 #powertop
-#redshift
 ripgrep
-#rofi
+rofi
 rxvt-unicode
 #simple-scan
 #shotwell
-#speedtest-cli-git
+speedtest-cli-git
 #telegram-desktop
 #timeshift
 tlp
@@ -417,16 +389,16 @@ unace
 unrar
 unzip
 #vnstat
-#w3m
-#webkit2gtk
+w3m
+webkit2gtk
 wmctrl
 xapp
-#xdo
-#xdotool
+xdo
+xdotool
 xdg-desktop-portal-gtk
 #yt-dlp
 #youtube-dl
-#zenity
+zenity
 zsh
 zsh-completions
 zsh-syntax-highlighting
@@ -449,8 +421,8 @@ bibata-cursor-theme-bin
 #xcursor-vanilla-dmz-aa
 
 ###fonts
-#ttf-font-awesome
-#ttf-ms-fonts
+ttf-font-awesome
+ttf-ms-fonts
 
 ###icons
 #faba-icon-theme-git
@@ -475,13 +447,13 @@ mkinitcpio-openswap
 alacritty
 appstream
 archiso
-#conky-lua-archers
+conky-lua-archers
 downgrade
 #font-manager
 #glxinfo
 #gitahead-bin
 grub-customizer
-#hardcode-fixer-git
+hardcode-fixer-git
 inxi
 mintstick-git
 neofetch
@@ -491,7 +463,6 @@ arcolinux-pamac-all
 paru-bin
 #peek
 #pulseaudio-equalizer-ladspa
-#pyakm
 python-pyparted
 #python-pywal
 rate-mirrors-bin
@@ -505,7 +476,7 @@ urxvt-fullscreen
 urxvt-perls
 urxvt-resize-font-git
 #wttr
-#yad
+yad
 #yakuake
 yay-bin
 
@@ -527,11 +498,11 @@ arcolinux-arc-kde
 arcolinux-bin-git
 arcolinux-candy-beauty-git
 #arcolinux-common-git
-#arcolinux-conky-collection-git
+arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 #arcolinux-cron-git
 #arcolinux-docs-git
-#arcolinux-desktop-trasher-git
+arcolinux-desktop-trasher-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 #arcolinux-geany-git
@@ -547,8 +518,8 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-#arcolinux-local-applications-git
-#arcolinux-local-applications-all-hide-git
+arcolinux-local-applications-git
+arcolinux-local-applications-all-hide-git
 #arcolinux-local-applications-plasma-hide-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -558,7 +529,7 @@ archlinux-logout-git
 #arcolinux-lxqt-applications-hide-git
 #arcolinux-meta-logout
 arcolinux-mirrorlist-git
-#arcolinux-neofetch-git
+arcolinux-neofetch-git
 arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
@@ -567,15 +538,15 @@ arcolinux-nitrogen-git
 #arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
 arcolinux-paru-git
-#arcolinux-pipemenus-git
+arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 #arcolinux-plasma-kservices-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-#arcolinux-rofi-git
-#arcolinux-rofi-themes-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
@@ -583,12 +554,13 @@ arcolinux-system-config-git
 #arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
 arcolinux-systemd-services-git
+#arcolinux-systemd-services-dev-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 archlinux-tweak-tool-git
-#arcolinux-variety-git
-#arcolinux-variety-autostart-git
+arcolinux-variety-git
+arcolinux-variety-autostart-git
 arcolinux-volumeicon-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
@@ -727,8 +699,6 @@ arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
 #arcolinux-welcome-app-dev-git
 #arcolinux-welcome-app-deepin-git
-#arcolinux-calamares-tool-git
-#arcolinux-calamares-tool-dev-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -806,13 +776,8 @@ adobe-source-han-sans-cn-fonts
 ###########################################################################
 
 accountsservice
-
-
-##sddm
 sddm
-#arcolinux-sddm-sugar-candy-git
 arcolinux-sddm-simplicity-git
-#sddm-config-editor-git
 
 ###########################################################################
 #                         PICOM OR COMPTON
@@ -937,7 +902,7 @@ xfce4-taskmanager
 #polybar
 #polybar
 
-#desktop specific dwm
+#desktop specific dusk
 sxhkd
 autorandr
 
